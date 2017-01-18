@@ -1,0 +1,39 @@
+{
+  "name": "sf4yt-storage-indexeddb",
+  "version": "0.0.0",
+  "description": "IndexedDB-powered implementation of the Storage interfaces for the Subscription Feed for YouTube Chrome extension",
+  "private": true,
+  "main": "StorageImpl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurca/sf4yt-storage-indexeddb.git"
+  },
+  "keywords": [
+    "sf4yt",
+    "subscription",
+    "feed",
+    "for",
+    "youtube",
+    "indexeddb"
+  ],
+  "author": "Martin Jurča <mjurca@centrum.cz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jurca/sf4yt-storage-indexeddb/issues"
+  },
+  "homepage": "https://github.com/jurca/sf4yt-storage-indexeddb#readme",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "sf4yt-storage": "github:jurca/sf4yt-storage#0.2.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.37.4"
+  }
+}
